@@ -1,1 +1,29 @@
+# Environment
 .env
+
+# Binary output
+tmp/
+*.exe
+*.out
+
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# Air
+.air.toml
+
+# Go
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Swagger (auto-generated, can be regenerated with swag init)
+docs/
